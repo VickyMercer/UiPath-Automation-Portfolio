@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N5Wm9k2WLEqVPMwshNBsZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 849, 759" ElementVisibilityArgument="Interactive" Guid="4ad98719-a8f8-4591-890b-4df939788c7d" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='Notepad' title='Notepad1 - Notepad' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="151313abb49f47e5d2fc18d8c43ceaf8.png" xmlns="">0w6HrcifC8kmYTU97bq7vYQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
