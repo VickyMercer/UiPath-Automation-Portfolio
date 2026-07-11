@@ -1,0 +1,12 @@
+# UiPath local/cache folders (applies inside every project folder)
+**/.local/
+**/.project/
+**/.storage/
+**/.tmh/
+
+# Keep .settings out unless you specifically need parts of it
+**/.settings/
+
+# UiPath temp/build files
+**/*.tmp
+**/*_TestResults/
