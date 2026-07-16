@@ -8,7 +8,7 @@ Every project here was built, tested, and documented individually in UiPath Stud
 
 `Fundamentals/` contains early exercises in core programming logic; the main portfolio folder contains RPA-focused automations, in progression from basic to intermediate to advanced. This framing turns the simple projects into a feature — they show the groundwork the more advanced automations are built on, not just a pile of practice files.
 
-## What's Inside
+## Repository Contents
 
 **RPA-Focused Automations** (repository root)
 Projects that interact with real applications and interfaces — practiced against UiPath's official training tools (the ACME test website and the DoubleUI desktop app):
