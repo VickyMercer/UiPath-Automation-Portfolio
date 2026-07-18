@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iW71c26l4kKIzQ7TII2ZWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com" CVScreenId="ef867ed6-2a6c-4a90-afc8-ab7cf02ba4d8" CvTextArea="725, 730, 114, 13" CvTextArgument="Search for Invoice" CvType="Text" DesignTimeRectangle="706, 724, 248, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Search for Invoice' parentid='dashmenu' tag='A' /&gt;" Guid="a39a98b4-a17d-437f-905c-309175618305" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ef867ed6-2a6c-4a90-afc8-ab7cf02ba4d8" CvTextArea="725, 730, 114, 13" CvTextArgument="Search for Invoice" CvType="Text" DesignTimeRectangle="725, 730, 114, 13" ElementType="Text" Guid="1d8786b0-475c-4ce5-bdd2-2dcc517cdeea" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1f7b938f6d31fed3eb5d0aee8018361a.png" xmlns="">0ke_QpzptYk6bPLBnBAk-wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
