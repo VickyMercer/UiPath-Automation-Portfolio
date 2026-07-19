@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sJkVWvFyFUiscgJCc01bSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items" CVScreenId="1b66c3e0-16ad-4f7d-b5da-bf86b05d9886" CvTextArea="1504, 139, 52, 16" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1490, 121, 80, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' /&gt;" Guid="2812af8c-5d96-46c4-b69f-c01edb5ed3f9" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1b66c3e0-16ad-4f7d-b5da-bf86b05d9886" CvTextArea="1345, 139, 131, 13" CvTextArgument="Switch to new theme" CvType="Text" DesignTimeRectangle="1331, 121, 159, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Switch to new theme' parentid='bs-example-navbar-collapse-1' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Switch to new theme' /&gt;" Guid="5db3fe28-8cc9-40fc-8da9-6281f0799794" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="90058181967a22d042b42eefd8108319.png" xmlns="">0U18lRQFIvEC6o6eSxPlNWA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

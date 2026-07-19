@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox ACME System 1 - Dashboard",
+  "Type": "App",
+  "Id": "1E6MJX53-U6DeQtAdTKZvA",
+  "Reference": "Ctk3OBQdkkSRGKAa-wSEIA/1E6MJX53-U6DeQtAdTKZvA",
+  "Created": "2025-09-24T09:04:17.0573289Z",
+  "Updated": "2025-09-24T09:04:17.0573289Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.15.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

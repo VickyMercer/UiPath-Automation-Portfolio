@@ -1,0 +1,6 @@
+{
+  "Name": "Workflow Layout and Libraries",
+  "ProjectType": "Process",
+  "Description": "To create Libraries and publish it to Orchestrator",
+  "MainFile": "Main.xaml"
+}

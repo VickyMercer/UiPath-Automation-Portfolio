@@ -1,0 +1,179 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Logout_ACME" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_childWindowVar" Type="InArgument(ui:UiElement)" />
+  </x:Members>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="1281,1187" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Firefox ACME System 1 - Work Items" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,1164" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InUiElement="[in_childWindowVar]" InteractionMode="Simulate" ScopeGuid="af1da9b8-e696-4a5d-ae0c-a016e715f08e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1003" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log Out'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,227" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="af1da9b8-e696-4a5d-ae0c-a016e715f08e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items" CVScreenId="1b66c3e0-16ad-4f7d-b5da-bf86b05d9886" ContentHash="sJkVWvFyFUiscgJCc01bSw" CvTextArea="1504, 139, 52, 16" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1490, 121, 80, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' /&gt;" Guid="2812af8c-5d96-46c4-b69f-c01edb5ed3f9" InformativeScreenshot="90058181967a22d042b42eefd8108319.png" Reference="Ctk3OBQdkkSRGKAa-wSEIA/LGP7ikVwmEuTZKNoUNVOQg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1b66c3e0-16ad-4f7d-b5da-bf86b05d9886" CvTextArea="1345, 139, 131, 13" CvTextArgument="Switch to new theme" CvType="Text" DesignTimeRectangle="1331, 121, 159, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Switch to new theme' parentid='bs-example-navbar-collapse-1' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Switch to new theme' /&gt;" Guid="5db3fe28-8cc9-40fc-8da9-6281f0799794" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'Login'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,714" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="af1da9b8-e696-4a5d-ae0c-a016e715f08e" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,228" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Successfully logged out&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,228" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Logout unsuccessful&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="48ce64ce-2c6d-40d3-b4a1-9e407fde965c" ContentHash="QkMWw23KHUGue25YHlk15Q" CvTextArea="423, 214, 88, 38" CvTextArgument="Login" CvType="Text" DesignTimeRectangle="424, 211, 1140, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="86e15bbc-4493-47d0-8e7d-68b8d97bc8c3" InformativeScreenshot="ed16ca83f38ccf83393ebaa61db2a130.png" Reference="Ctk3OBQdkkSRGKAa-wSEIA/rXf92kci_0-51hb2ass5GA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="48ce64ce-2c6d-40d3-b4a1-9e407fde965c" CvTextArea="421, 137, 133, 16" CvTextArgument="ACME System 1" CvType="Text" DesignTimeRectangle="409, 121, 162, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='navbar-brand' aaname='ACME System 1' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ACME System 1' /&gt;" Guid="f52a5fb5-0ed2-44a0-876a-15c94d081c03" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Firefox" ContentHash="D7aUj6ZIUESvASXaL7oYRQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEAElEQVR42r3TW4hVVRjA8f+31t5n5syMdkancogyNfOGmmkQWZIEBZERiqlgEAk9RI8RUVZ080Lmgy9iPRQ+9CKYlBFI4q0E0Ya0GAMvqdGMMpfj3M6Z2XuvtRoP+5wzDrPNaeb0g7XZD5vNf62PJWxqugzUA47/lwCdHnAfRS5+iFAZDpyAUDTBA64DGQAiC4GpVEB5gzU+aMBSOAGFAL0RzyyYtGflnMx3l7JBreW/UYAFjIWUpsA4cA7qq3XQloumbT9+dSMB4Il4AFhAQ62vdwEHqbCUrzYGfRH4GkWRJ1wfMHOpsLmTq+dYAEWBoshClRbLOHlj6ZTpB850/Hy8JbcLyoxxZtjIyizjY8uyxoZ7tp+5cKo5+9jhQy2v+p76llhfaEgM8IWSr3/v/HzHibamrYdbmpqu5XeQ4Ifz3Ue3Hmk5ufNU25ltx65uADhyNf+sOZeFmRlIaz4+1rqCmEWSA0Qoac9F6/O5cBGDK5uL1pKgIx89QS5c0p0L5xvjHoeC3TMenQIXuiCy7F09/UMSKBKktDqNFtAK35PfSFClxaAVaKH+Dv8SZfLuqumr3lo/ax7wPrE6X91eAA5FmSKZwlEQhE642V6geemUOiGmVOIIxi40liITWrftp1a34+jfbslXZ7cTqx73AMER01pR1NEfke8OyQ2ua31RSEwrxjkAhBFkqjRUa0hrJlXrHDHHOAcII3Ou+BK/j/YWiHC7HGOgknbTH1pBAIHI4kjgKwwAAvnAyJgCrKPE96UG6yC0TEypARL0Rc5HCxiordY1YwroDh1FK2dnLpINClW9xi0kQWuvAQF6QjYvb7xIeTOjD3CWkienTvie0EBDDSeaOxtfWdQwjWE2L2tcEGXzoDX4iucfzOwjZpwbfUCVx1C70vdPgK4AfMWsz05f9JS83JD2Zj90Z3qOOPem+uCX09SmoC3P4tmZLqCVmBZhJPZWAZ4ShtqzZsZr/NUDKQ1a+GT/5S/fOdp6dt2+P5u37L+yFQEGIggsP66b+SKUaQHipUQcMZUQkGTnmrUPNNHeDx0DkNYE7TnIRVDrFU4n5QkvrZ7xKXCAssHuELJB4ZvW7uCuoWFDefy7xftfn//I7l/b3jt4vvu5gRqPfgt3p3TvUw837Pvo6Xs3AAHDLJ9a13WlzqvzUko31lVdJjZg3OgCYieBFYxOhhHko1vdAlBUWJVCJQYouETl/aGlfB2ETU1dOCbSH/HCwoZN6+bVf9HSE9ZGlps4QAOhs2hRKAXWMirplAS5wM57+1DLN1EQga+zNwKyQAYHWgm+FgLjUIpxJ0BoAFsadueNAFcaRuDAWFBUhgUU4GugPIJzwGQgKmU6KmH4vz2g7R9lm4pbO/Z6YQAAAABJRU5ErkJggg==" InformativeScreenshot="ee1a49b36c5d9822570e9636f132c7e1.png" Reference="Ctk3OBQdkkSRGKAa-wSEIA/oJAbESLnok2gd_eBnkxfVQ" Selector="&lt;html app='firefox.exe' title='ACME System 1 - Work Items' /&gt;" Url="https://acme-test.uipath.com/work-items" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
