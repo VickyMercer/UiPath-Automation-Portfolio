@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox ACME System 1 - Work Items",
+  "Type": "App",
+  "Id": "P1fa9dW6-kGQNMP9LYOjaw",
+  "Reference": "Ju7j1lay2Ei1edROR5lbsA/P1fa9dW6-kGQNMP9LYOjaw",
+  "Created": "2025-09-08T16:19:19.3414425Z",
+  "Updated": "2025-09-08T16:19:19.3414425Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.15.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

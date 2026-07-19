@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox Automation Developer Associate Training (v2023.10) Course  UiPath Academy",
+  "Type": "App",
+  "Id": "iwUYvazbh0aL7oGpQFJ8Vg",
+  "Reference": "Ju7j1lay2Ei1edROR5lbsA/iwUYvazbh0aL7oGpQFJ8Vg",
+  "Created": "2025-09-08T16:18:52.5866705Z",
+  "Updated": "2025-09-08T16:18:52.5866705Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.15.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
