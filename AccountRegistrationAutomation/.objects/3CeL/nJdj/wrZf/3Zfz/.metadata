@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Retype Password",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "3ZfzUT_aLUCUqZzUp2nxLA",
+  "Reference": "o69hdGxJKU-jQJfu_u9vBw/3ZfzUT_aLUCUqZzUp2nxLA",
+  "ParentRef": "o69hdGxJKU-jQJfu_u9vBw/wrZfXTeD6UyK3JUcKmqTZg",
+  "Created": "2025-09-07T12:13:38.3636758Z",
+  "Updated": "2025-09-07T12:13:38.3636758Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.15.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gVetCBuyLEqGwA2wbAuxTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/login" CVScreenId="f874422d-53e4-4b1e-b0e5-af8cbe6afda5" CvElementArea="731, 581, 82, 37" CvTextArea="746, 593, 54, 16" CvTextArgument="Register" CvType="Button" DesignTimeRectangle="733, 583, 78, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                                 Register                             ' tag='A' /&gt;" Guid="9cfe227a-a269-4661-85a1-89d050ceeeb3" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="17be882f8f3a98d9d33b977ea64ca9d3.png" xmlns="">0gTOIHyChqUm9o3ojoBri9Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AUrUkOolj0q2fKFbabwgng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/register" CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" CvElementArea="492, 618, 17, 17" CvType="CheckBox" DesignTimeRectangle="494, 619, 14, 14" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='checkTerms' tag='INPUT' type='checkbox' class='form-check-input' aaname='                                     I agree to the updated Terms of Use and Privacy Policy.                                  ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="800bc046-9de7-42db-b041-a3aa23a9b724" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Register' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" CvTextArea="510, 620, 369, 16" CvTextArgument="I agree to the updated Terms of Use and Privacy Policy." CvType="Text" DesignTimeRectangle="511, 617, 368, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='form-check-label' tag='LABEL' type='' aaname='                                     I agree to the updated  and .                                  ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='I agree to the updated Terms of Use and Privacy Policy.' /&gt;" Guid="451b9a81-2910-4f3a-ab7d-7110f23aa050" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c98473d2b61334ff2b130d966db3e878.png" xmlns="">0iFQXS6l_0kqwAqz5tVjB6w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3kqNlMjYakCF8qCyF-Ep5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/register" CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" CvElementArea="506, 679, 30, 30" CvType="CheckBox" DesignTimeRectangle="507, 679, 28, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='a-llln02lkq051' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' tag='DIV' /&gt;" Guid="ae5a7f54-49e0-4c98-b3b5-3770fde6cd2f" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Register' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" CvTextArea="546, 687, 91, 14" CvTextArgument="I'm not a robot" CvType="Text" DesignTimeRectangle="547, 658, 152, 74" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='a-llln02lkq051' tag='IFRAME' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;webctrl id='recaptcha-anchor-label' tag='LABEL' type='' class='rc-anchor-center-item rc-anchor-checkbox-label' aaname='I&amp;apos;m not a robot' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='I&amp;apos;m not a robot' /&gt;" Guid="89fda652-97e9-46f4-8384-052ea6c4ef0b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1c41732b2af2c09d003b57bf3f572bae.png" xmlns="">0zT49j8lFPEy5_kpo6ARAtA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

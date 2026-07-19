@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox ACME System 1 - Log In",
+  "Type": "App",
+  "Id": "3CeLg7fYqkmNMJ1bwQi_cw",
+  "Reference": "o69hdGxJKU-jQJfu_u9vBw/3CeLg7fYqkmNMJ1bwQi_cw",
+  "Created": "2025-09-07T10:39:21.7230517Z",
+  "Updated": "2025-09-07T10:39:21.7230517Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.15.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

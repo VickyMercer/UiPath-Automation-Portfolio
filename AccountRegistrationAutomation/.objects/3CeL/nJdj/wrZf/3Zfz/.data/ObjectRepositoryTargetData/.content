@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0AdTI1zQYUWU46Cv4JjX6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/register" CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" CvElementArea="493, 565, 486, 36" CvType="InputBox" DesignTimeRectangle="494, 566, 485, 34" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='password-confirm' tag='INPUT' type='password' class='form-control' aaname='Retype Password:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9531a78a-316d-4ce5-a8ca-6e29c5bbca95" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Register' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" CvTextArea="493, 544, 122, 16" CvTextArgument="Retype Password:" CvType="Text" DesignTimeRectangle="494, 541, 121, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Retype Password:' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Retype Password:' /&gt;" Guid="1041823b-c9d0-473c-8a02-3eb8eb694d8f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7950835f96815161c6cae30209241c44.png" xmlns="">0g8l5kivGcE6Ctaap7aHaZw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

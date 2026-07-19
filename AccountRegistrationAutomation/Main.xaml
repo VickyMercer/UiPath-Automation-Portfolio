@@ -1,0 +1,270 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1281,2349" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="518,2326" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Firefox ACME System 1 - Log In" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,2077" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="a51e594c-b42e-4744-abe1-01afb8ba14fb" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1827" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Register'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a51e594c-b42e-4744-abe1-01afb8ba14fb" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="f874422d-53e4-4b1e-b0e5-af8cbe6afda5" ContentHash="gVetCBuyLEqGwA2wbAuxTA" CvElementArea="731, 581, 82, 37" CvTextArea="746, 593, 54, 16" CvTextArgument="Register" CvType="Button" DesignTimeRectangle="733, 583, 78, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                                 Register                             ' tag='A' /&gt;" Guid="9cfe227a-a269-4661-85a1-89d050ceeeb3" InformativeScreenshot="17be882f8f3a98d9d33b977ea64ca9d3.png" Reference="o69hdGxJKU-jQJfu_u9vBw/y8FDEaSGnEqWAzfOq1SQrw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="a51e594c-b42e-4744-abe1-01afb8ba14fb" Text="your_example@example.com" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/register" CVScreenId="ecfd8328-ace6-4114-ab1b-c6455b5c5dbb" ContentHash="OC-Eajy000WPmPGNa9RYng" CvElementArea="492, 416, 486, 37" CvType="InputBox" DesignTimeRectangle="494, 418, 485, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='form-control ' aaname='Email:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a71ecd7b-6151-4a44-b355-5c80a2c0cb5a" InformativeScreenshot="a7d984f5025f22bfa84c901f5215ffbb.png" IsResponsive="True" Reference="o69hdGxJKU-jQJfu_u9vBw/swYh7BHLGkKPmInGVxywQQ" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Register' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="ecfd8328-ace6-4114-ab1b-c6455b5c5dbb" CvTextArea="492, 396, 43, 13" CvTextArgument="Email:" CvType="Text" DesignTimeRectangle="494, 393, 42, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email:' /&gt;" Guid="d95b34a7-e33f-4079-893a-bd8b9a20edc9" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" IsPassword="True" ScopeIdentifier="a51e594c-b42e-4744-abe1-01afb8ba14fb" Text="example123" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/register" CVScreenId="ecfd8328-ace6-4114-ab1b-c6455b5c5dbb" ContentHash="Z930fXfQ7ESR4elNgCtALQ" CvElementArea="492, 491, 487, 37" CvType="InputBox" DesignTimeRectangle="494, 492, 485, 34" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='form-control ' aaname='Password:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="151a9c5a-9282-4a92-b62a-876bf4ca5b36" InformativeScreenshot="72b1fbbadd43cac651ebb93cd26fdd39.png" Reference="o69hdGxJKU-jQJfu_u9vBw/4Z9JXfCCQkWC-isccR3NuQ" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Register' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="ecfd8328-ace6-4114-ab1b-c6455b5c5dbb" CvTextArea="492, 470, 72, 13" CvTextArgument="Password:" CvType="Text" DesignTimeRectangle="494, 467, 70, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password:' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password:' /&gt;" Guid="da62d45f-c3dd-427d-9d2f-71a595a1431f" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Retype Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" IsPassword="True" ScopeIdentifier="a51e594c-b42e-4744-abe1-01afb8ba14fb" Text="example123" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/register" CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" ContentHash="0AdTI1zQYUWU46Cv4JjX6g" CvElementArea="493, 565, 486, 36" CvType="InputBox" DesignTimeRectangle="494, 566, 485, 34" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='password-confirm' tag='INPUT' type='password' class='form-control' aaname='Retype Password:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9531a78a-316d-4ce5-a8ca-6e29c5bbca95" InformativeScreenshot="7950835f96815161c6cae30209241c44.png" Reference="o69hdGxJKU-jQJfu_u9vBw/3ZfzUT_aLUCUqZzUp2nxLA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Register' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" CvTextArea="493, 544, 122, 16" CvTextArgument="Retype Password:" CvType="Text" DesignTimeRectangle="494, 541, 121, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Retype Password:' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Retype Password:' /&gt;" Guid="1041823b-c9d0-473c-8a02-3eb8eb694d8f" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - Terms &amp; Conditions" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a51e594c-b42e-4744-abe1-01afb8ba14fb" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/register" CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" ContentHash="AUrUkOolj0q2fKFbabwgng" CvElementArea="492, 618, 17, 17" CvType="CheckBox" DesignTimeRectangle="494, 619, 14, 14" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='checkTerms' tag='INPUT' type='checkbox' class='form-check-input' aaname='                                     I agree to the updated Terms of Use and Privacy Policy.                                  ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="800bc046-9de7-42db-b041-a3aa23a9b724" InformativeScreenshot="c98473d2b61334ff2b130d966db3e878.png" Reference="o69hdGxJKU-jQJfu_u9vBw/iLIw6B_ms0WEIQbivzj4Ng" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Register' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" CvTextArea="510, 620, 369, 16" CvTextArgument="I agree to the updated Terms of Use and Privacy Policy." CvType="Text" DesignTimeRectangle="511, 617, 368, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='form-check-label' tag='LABEL' type='' aaname='                                     I agree to the updated  and .                                  ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='I agree to the updated Terms of Use and Privacy Policy.' /&gt;" Guid="451b9a81-2910-4f3a-ab7d-7110f23aa050" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I'm not a robot'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a51e594c-b42e-4744-abe1-01afb8ba14fb" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/register" CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" ContentHash="3kqNlMjYakCF8qCyF-Ep5w" CvElementArea="506, 679, 30, 30" CvType="CheckBox" DesignTimeRectangle="507, 679, 28, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='a-llln02lkq051' tag='IFRAME' /&gt;&lt;webctrl aria-role='presentation' tag='DIV' /&gt;" Guid="ae5a7f54-49e0-4c98-b3b5-3770fde6cd2f" InformativeScreenshot="1c41732b2af2c09d003b57bf3f572bae.png" Reference="o69hdGxJKU-jQJfu_u9vBw/w5Ob9UrDGkyvi0QC7h1mcw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Register' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="640db468-1923-46ad-bdc7-54c250c140f4" CvTextArea="546, 687, 91, 14" CvTextArgument="I'm not a robot" CvType="Text" DesignTimeRectangle="547, 658, 152, 74" ElementType="Text" FuzzySelectorArgument="&lt;webctrl name='a-llln02lkq051' tag='IFRAME' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;webctrl id='recaptcha-anchor-label' tag='LABEL' type='' class='rc-anchor-center-item rc-anchor-checkbox-label' aaname='I&amp;apos;m not a robot' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='I&amp;apos;m not a robot' /&gt;" Guid="89fda652-97e9-46f4-8384-052ea6c4ef0b" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Register(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a51e594c-b42e-4744-abe1-01afb8ba14fb" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/register" CVScreenId="9931242f-850f-40d5-b17a-8367295b063e" ContentHash="Z2UcCnjssUqQQR-LbJRODg" CvElementArea="492, 748, 82, 37" CvTextArea="505, 760, 55, 16" CvTextArgument="Register" CvType="Button" DesignTimeRectangle="494, 750, 78, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="0845ccb9-bcf5-494a-b18e-59944e2f8fe3" InformativeScreenshot="f7d72f3b66af6c3eb6853a7147b51c51.png" Reference="o69hdGxJKU-jQJfu_u9vBw/vmrzcSIKoEGDsQsXy-0GQA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='ACME System 1 - Register' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="9931242f-850f-40d5-b17a-8367295b063e" CvElementArea="738, 666, 35, 36" CvType="Icon" DesignTimeRectangle="740, 668, 32, 32" FullSelectorArgument="&lt;webctrl name='a-a89ldgkygwvr' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' isleaf='1' parentid='rc-anchor-container' tag='DIV' /&gt;" Guid="c7cc5199-9a6e-493b-80b1-e2fa99de62ad" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAdbSURBVFhH5ZfZU1N3FMf7b4goKlptO50+dZlRCIu7iAjqdGprddpO+9DxoVPbhz5qFzcER0fFpSqKCgkEQlYChARKTKBgsa0CQkFBkEUC2dDab8/5JTfmZgGdtjPO9OE7v3tvLud87vec87uXl6anp/Ei6f8F5PP5hWL9Fk8xgbxeL4ot4ziof4x8rRuHqt04qHHjQBWJ1v28SscaL76vcOHL7xqw77gdKv0t3O55gMlJd1i8Z4eKAvL7A7K09GJr/iDeLwa2nSIVAVuD2kLKO0nrCRL9tvkY8Nr6EixdXYrFmeVYtqYSGdt1OFnyK7p6RkOxI93iPOHnrBlL1tRyE5+dGsTWY9PIO+pBbiHLi82knALSEQ+tPmQfcuHVNUV4OeM0Fqdfw8L0cpIaizKNeGeLAUfO3YB7akrElCD8/iCctAYVF8jrC6xXTb9j89FpgqDkBJB92ION+QFls474sP7ABJauKkJy2mksSS9GckYpFhHUkswKJKVVEJgeeZ9b0N07ImJ6PAGI1o4BHDrTHsrJigkkPUV7twufnCVXyKGcAncAgJRFUALssJuOvVi3n4AyTyJZwQ6dx+KMy1iUpkRSKjulQjKVMSldh7fztHC23xOxu3pG8FaeHlt318lyx+whXrvvufDxGTdyj1OPFHiwid0hCXcETFD5XmwgoFdWF5E75FDmRYK5hOT0K1ikUIryJYlVhXmKaizfpkW1uQvrPjIiMaMBu762yvJHA5EeutzYfd5FMH8RjFtACCACY4hA2dgdlkc4tGztRSxZSSAZJeQSO3QFCxQlWJBWRqsK81PJMVoTU9UEpsbcFAJMN+LDPRZZfhmQ5M7Z2jHk0gRxmRgk4I5XwGwikI3UN9kFj+h8SpRsAzV17qfnkbXzHN5Y+yOVSI2FiivkSglBMJgS8xXlSExRYl4qQwXOExQE9FUcIF+wie8MTOHd45PIoUbOYUe4RNw77AzBbDr6JzYdGsW2wwPILnyCLAJl8L6+PgwMDMBU68BXe2nC0i+QO1QqApqfwiolEBUSlpeROwGguQoDdnw5C9CF+jHksTv5U09LxUAMU/gY2/LvQ2tph6X5Bt4r6Ec27UF5BVMYGpkIxeCNtayyCa+vvSTcWZBylUp2FXNXEMwKFeYQVGIQaMaSTUx6sOPEOHIKH1FpAg2bxTCibD6SC9X1T8fU5riJ7YX36R4/hkcfimtcdglMY7Rj2SralxRlAihhOUGllNEaKN3cVH18h1i/9Y6JZmWQ0DQF3cmhaTtw9aa4j/coX7DfbM5b2HmsH0Ojk6E40o58q/Mu3tzM5WGga+TONQGVQE6J8ilmAVI3D4uNLrC/uLGBNrysAy4699NrZAjOjjtiCiUHJKiWjm6MTwSAJJjOO8NYuUNDMCpq7GvU0FwyhiGoFaVi6hJncyi/ahQbC57QzjuGdT+MYc23D7D+hxFq3MfYXfSH6I3w+1nSZIari3bk1Tt1mJ+mpsSlwd4pRQKVa84KpWjsRC5dqhEffDED0L6yYeQe9SNn/11kfduDDXu7sHFfN03VCL45f4cc8cNFb/Epei+53e4QILsmvZu6eoaxbmc55qVcxhLesRWXkZRSTGCsSzRtpOXFWJhaQudq7NpjDuVnyYB+sjtgbbRDa6iBjqTVm8SxVl8Dg9EMs9mMmpoaWCwWVGurcX/oviwYa3R0HC0//wpnS3tIDmebTNL1646f0dXdK/t7GdD163b81NQIk9EAo0EfkkGvg5Gu6fV6AVNRUQGHwyEL9G9JBmS3X0djYyMMBoOQTkcwtDKInlZ2SKlUwul0yoLEk1TG0KfGMygCyA6bzSYAdDpdSHxuMpmg0WjQbG+WBYgnCcLj8cjOZ5MMqLm5OeSQBCXcIRmNRrF2dnaG7o+VJPxaX3+fKO3ExETUb/EU5VA4UCSUaGpzDXp7/5AF4USRyfrv9sNkNsHWaEO9pZ6aPfApOxtUlENcskiHpNKx2CkuXWtrK4aGhmTBWMNDw2hrb4OmWkOTaRDTyEBWmxUTrtmdigKyWq0hR7RarQwmXHwfJ+MH4CZ3OGnLoGtanRYN1gboaDL5WFoZqq6+LuRUPMV0iGFMNSbhBkOJwAShp6mTgAQ0bQm8DTTYGoQ4KV+TIFgMLYGZa82wNFjx8KH0Io52St5DzXa0tLSgvLxcWF5ZWYm6uroop6RkUiKdgQAjQMLFUByPH5L3sNu3b8sgwhXlECdsbw98YnAJuF/Yar4uPW14oljH4dcYhNfauloBwzHDc0ZKBsTlampqkt3QSOdVBGVpsIgmjUwqKdIdCYb/hktZTjA8weGxY0kGNDg4SJ8Pvqja3rjxC0FVobKqUjSsVJ5IhYOJ/qKHYFe49G1t8v+/4kkGNJNcLpfYp6qqqqBUKQUgPz2XghOz+JiBGFxF9zAIO85/GytmLD0zkCSekI6ODtTX14tm5+RqtTok0XM0CHyPNE3Po+cGCheXl7+LJicnhfiYr0m/+6dn3pVj6R8B/Rd6wYCm8TdfEUXp+IDJ2gAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Firefox" ContentHash="ECnuMrQcDU-s5-CgiyFVkQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEAElEQVR42r3TW4hVVRjA8f+31t5n5syMdkancogyNfOGmmkQWZIEBZERiqlgEAk9RI8RUVZ080Lmgy9iPRQ+9CKYlBFI4q0E0Ya0GAMvqdGMMpfj3M6Z2XuvtRoP+5wzDrPNaeb0g7XZD5vNf62PJWxqugzUA47/lwCdHnAfRS5+iFAZDpyAUDTBA64DGQAiC4GpVEB5gzU+aMBSOAGFAL0RzyyYtGflnMx3l7JBreW/UYAFjIWUpsA4cA7qq3XQloumbT9+dSMB4Il4AFhAQ62vdwEHqbCUrzYGfRH4GkWRJ1wfMHOpsLmTq+dYAEWBoshClRbLOHlj6ZTpB850/Hy8JbcLyoxxZtjIyizjY8uyxoZ7tp+5cKo5+9jhQy2v+p76llhfaEgM8IWSr3/v/HzHibamrYdbmpqu5XeQ4Ifz3Ue3Hmk5ufNU25ltx65uADhyNf+sOZeFmRlIaz4+1rqCmEWSA0Qoac9F6/O5cBGDK5uL1pKgIx89QS5c0p0L5xvjHoeC3TMenQIXuiCy7F09/UMSKBKktDqNFtAK35PfSFClxaAVaKH+Dv8SZfLuqumr3lo/ax7wPrE6X91eAA5FmSKZwlEQhE642V6geemUOiGmVOIIxi40liITWrftp1a34+jfbslXZ7cTqx73AMER01pR1NEfke8OyQ2ua31RSEwrxjkAhBFkqjRUa0hrJlXrHDHHOAcII3Ou+BK/j/YWiHC7HGOgknbTH1pBAIHI4kjgKwwAAvnAyJgCrKPE96UG6yC0TEypARL0Rc5HCxiordY1YwroDh1FK2dnLpINClW9xi0kQWuvAQF6QjYvb7xIeTOjD3CWkienTvie0EBDDSeaOxtfWdQwjWE2L2tcEGXzoDX4iucfzOwjZpwbfUCVx1C70vdPgK4AfMWsz05f9JS83JD2Zj90Z3qOOPem+uCX09SmoC3P4tmZLqCVmBZhJPZWAZ4ShtqzZsZr/NUDKQ1a+GT/5S/fOdp6dt2+P5u37L+yFQEGIggsP66b+SKUaQHipUQcMZUQkGTnmrUPNNHeDx0DkNYE7TnIRVDrFU4n5QkvrZ7xKXCAssHuELJB4ZvW7uCuoWFDefy7xftfn//I7l/b3jt4vvu5gRqPfgt3p3TvUw837Pvo6Xs3AAHDLJ9a13WlzqvzUko31lVdJjZg3OgCYieBFYxOhhHko1vdAlBUWJVCJQYouETl/aGlfB2ETU1dOCbSH/HCwoZN6+bVf9HSE9ZGlps4QAOhs2hRKAXWMirplAS5wM57+1DLN1EQga+zNwKyQAYHWgm+FgLjUIpxJ0BoAFsadueNAFcaRuDAWFBUhgUU4GugPIJzwGQgKmU6KmH4vz2g7R9lm4pbO/Z6YQAAAABJRU5ErkJggg==" InformativeScreenshot="be6d25604c7b9ed7f7a64e7123651296.png" Reference="o69hdGxJKU-jQJfu_u9vBw/wrZfXTeD6UyK3JUcKmqTZg" Selector="&lt;html app='firefox.exe' title='ACME System 1 - Log In' /&gt;" Url="https://acme-test.uipath.com/login" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;User registered!!&quot;]" />
+    </Sequence>
+  </Sequence>
+</Activity>

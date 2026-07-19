@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Firefox ACME System 1 - Log In",
+  "Type": "Screen",
+  "Id": "wrZfXTeD6UyK3JUcKmqTZg",
+  "Reference": "o69hdGxJKU-jQJfu_u9vBw/wrZfXTeD6UyK3JUcKmqTZg",
+  "ParentRef": "o69hdGxJKU-jQJfu_u9vBw/nJdjIGKUYEiPdJNd0Y8UbA",
+  "Created": "2025-09-07T10:39:21.8565865Z",
+  "Updated": "2025-09-07T10:39:21.8565865Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.15.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
