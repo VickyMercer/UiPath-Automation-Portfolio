@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jS8pZ1yjN0qIZTaykKMVAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="e0d4fc70-aea8-404f-b464-4ad0cf344d83" CvElementArea="440, 545, 83, 33" CvTextArea="461, 555, 39, 14" CvTextArgument="Accept" CvType="Button" DesignTimeRectangle="441, 546, 80, 31" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='Accept' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Accept' /&gt;" Guid="0fb7114e-35c4-4cd7-aab6-95747bdbd68d" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e0d4fc70-aea8-404f-b464-4ad0cf344d83" CvElementArea="440, 545, 83, 33" CvTextArea="461, 555, 39, 14" CvTextArgument="Accept" CvType="Button" DesignTimeRectangle="463, 555, 36, 13" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Accept' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Accept' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Accept' /&gt;" Guid="01ab8ec1-c617-4471-8635-b26a60f80e65" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="92fa551a421a549ee24ef7642f40f394.png" xmlns="">03M-S8foG3EqIAxFSzYnpWg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Firefox Automation Developer Associate Traini",
+  "Type": "Screen",
+  "Id": "QLy0YoH_Jku29dPbfX-OTA",
+  "Reference": "4NdvKy_-W0S_5BaElUcFyQ/QLy0YoH_Jku29dPbfX-OTA",
+  "ParentRef": "4NdvKy_-W0S_5BaElUcFyQ/7Xi9H7ZTk0eGK8oGV5J6tw",
+  "Created": "2025-09-06T16:58:09.6994262Z",
+  "Updated": "2025-09-06T16:58:09.6994262Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

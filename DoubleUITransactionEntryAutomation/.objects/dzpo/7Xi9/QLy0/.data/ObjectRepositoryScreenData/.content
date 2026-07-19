@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="UYe_q3BGoEeo5u_6rCeCow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1056" BrowserType="Firefox" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAyVBMVEUAAAD/SST/SRj/Rxj6Rxj7SBn7Rhb7SBn7Shz8SBb6SBb6Rxf8Rxn8Rxf8Rhb8SBj6SBb6Rxf7Rxf6Rhb6SBf6Rxb7Rxb7Rhf7Rxf6Rxb6Rhf7Rxf7Rhf6Rhb6Rhf6Rhf7Rhb6Rhb6Rhb6Rhb6Rxb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6Rhb6RhYXYzDpAAAAQnRSTlMABAYMDhISFBYaHCosLi4wMDA6PEJETExOUlJeXmBkbnR6g4eJiYuNk5WZoaeprbW5u73Dx83R2ePl5+3v8/X3+/2VmgZIAAAAs0lEQVR42tXTxw6CYAAD4Lq3uBX3woEbFCcqff+H8gAxIfmFGPVgr/2OLegTfAUo8osoDpDxIvIHoLmehL1AluTQBVRNa9ndXNPqqJJcuMCO7NvgQHYQMngrewEE8zF4gowkRTyBSTb+D+jk1AYm2RaAJbkBACRIVgSgS1ppABiRjAtA8k4e27nC2CJXEAAMniO8poQgoDr9uQQhAIqz/eWk96IAgK1h1D7b5JvA9zg/Pu8DjpSRHOl1fWEAAAAASUVORK5CYII=" Selector="&lt;html app='firefox.exe' title='Automation Developer Associate Training (v2023.10) Course | UiPath Academy' /&gt;" Url="https://academy.uipath.com/learning-plans/automation-developer-associate-training-(v2023.10)?lo_cId=7wUB3bSgBb7HZoP0jHsuwN" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="9616e33fd8ecbacd8c2008925c609224.png" xmlns="">0rCeyvkKkNUOTzwQHhkeBFg</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
